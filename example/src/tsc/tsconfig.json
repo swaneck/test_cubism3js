@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [ "es2015", "dom" ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "rootDir": "../../../",
+        "outDir": "../../.tscBuild"
+    },
+    "include": [
+        "../../node_modules/@types/pixi.js/index.d.ts",
+        "../../../src/*.ts",
+        "./*.ts"
+    ]
+}
